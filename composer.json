@@ -1,0 +1,26 @@
+{
+    "name": "binod/captcha",
+    "description": "Simple captcha validation for form submits",
+    "minimum-stability": "dev",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "unknownrocks619",
+            "email": "unknownrocks619@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Validation\\Captcha\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" :[
+                "Validation\\Captcha\\CaptchaServiceProvider"
+            ]
+        }
+    }
+}
